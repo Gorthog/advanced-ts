@@ -23,5 +23,13 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
-  }
+  },
+  "paths": {
+    "fake-external-lib": [
+      "./src/fake-external-lib/index"
+    ],
+  },
+  "include": [
+    "src"
+  ]
 }
