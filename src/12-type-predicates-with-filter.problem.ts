@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import { Equal, Expect } from "./helpers/type-utils.ts";
+import { Equal, Expect } from "../helpers/type-utils.ts";
 
 export const values = ["a", "b", undefined, "c", undefined];
 

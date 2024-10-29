@@ -1,6 +1,6 @@
 import { isBodyElement, isDivElement } from "./fake-external-lib";
 import { it } from "vitest";
-import { Equal, Expect } from "./helpers/type-utils";
+import { Equal, Expect } from "../helpers/type-utils";
 
 /**
  * By changing the type definition of this interface,
